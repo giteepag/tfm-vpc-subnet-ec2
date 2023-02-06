@@ -38,6 +38,5 @@ module "myapp-server" {
   vpc_id = module.myvpc.my_vpc_id
   avail_zone = var.avail_zone
   env_prefix = var.env_prefix
-  instance_type = var.instance_type
   subnet_id = module.mysubnet.mysubnet_id
 }
