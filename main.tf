@@ -1,4 +1,5 @@
 #Terraform Block
+#Terraform block of code 
 terraform {
     required_version = "~> 1.0"
     required_providers {
